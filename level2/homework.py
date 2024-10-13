@@ -1,4 +1,4 @@
-name = "Giorgi"
+name = "გიორგი"
 age = "22"
 print ("მე მქვია " + name + " და მე ვარ " + age + " წლის")
 
