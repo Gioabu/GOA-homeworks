@@ -1,0 +1,56 @@
+#h1-1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#img-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+    
+
+#h1-2{
+    text-align: center;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#img-2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#txt-1{
+    font-size: x-large;
+    font-family: sans-serif;
+    color: #019024;
+
+}
+
+#h1-3{
+    text-align: center;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#img-3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#txt-2{
+    font-size: x-large;
+    font-family: sans-serif;
+    color: hsl(7, 40%, 35%);
+
+}
