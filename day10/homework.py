@@ -1,9 +1,9 @@
-# 1) ?!
+# 1)
 # age = int(input("Please input your age: "))
-# for i in range(5):
-#     print() 
+# for i in range(age):
+#     print(i)
 
-
+    
 
 # 2) ვთხოვთ მომხმარებელს შემოიყვანოს ტემპერატურა და გადაგვყავს ფარენჰეიტში:
 

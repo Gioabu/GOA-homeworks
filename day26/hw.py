@@ -28,3 +28,20 @@
 # exitonclick()
 
 # 2)
+
+# def hello_world():
+#     print("print()")
+# hello_world()
+
+# 3)
+
+# def even_or_odd(x):
+#     if x % 2 == 0:
+#         print('The number is odd')
+#     else:
+#         print('The number is even')
+
+# even_or_odd(23)
+
+# 4) ?!
+
