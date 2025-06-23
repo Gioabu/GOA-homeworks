@@ -1,1 +1,178 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inconsolata:wght@200..900&display=swap');
+/*! font face */
+@font-face {
+    font-family: "Inconsolata-Bold";
+    src: url("../assets/fonts/static/Inconsolata-Bold.ttf");
+  }
+  @font-face {
+    font-family: "Inconsolata-ExtraBold";
+    src: url("../assets/fonts/static/Inconsolata-ExtraBold.ttf");
+  }
+  @font-face {
+    font-family: "Inconsolata-Medium";
+    src: url("../assets/fonts/static/Inconsolata-Medium.ttf");
+  }
+  @font-face {
+    font-family: "Inconsolata-Regular";
+    src: url("../assets/fonts/static/Inconsolata-Regular.ttf");
+  }
+  /*! font class start */
+  .font-bold {
+    font-family: "Inconsolata-Bold";
+  }
+  .font-extra-bold {
+    font-family: "Inconsolata-ExtraBold";
+  }
+  .font-medium {
+    font-family: "Inconsolata-Medium";
+  }
+  .font-regular {
+    font-family: "Inconsolata-Regular";
+  }
+  /*? font class end */
+  
+  /*! color text class start */
+  .text-neutral {
+    color: hsl(0, 0%, 100%);
+  }
+  .text-neutral-300 {
+    color: hsl(252, 6%, 83%);
+  }
+  .text-neutral-500 {
+    color: hsl(245, 15%, 58%);
+  }
+  .text-neutral-700 {
+    color: hsl(245, 19%, 35%);
+  }
+  .text-neutral-900 {
+    color: hsl(248, 70%, 10%);
+  }
+  .text-orange-500 {
+    color: hsl(7, 88%, 67%);
+  }
+  
+  .text-orange-500 {
+    color: hsl(7, 88%, 67%);
+  }
+  .text-orange-700 {
+    color: hsl(7, 71%, 60%);
+  }
+  
+  /*? text color class end */
+  
+  /*! text background class start*/
+  /* !!!!!  არ ვიცით საეთ მიავატრიალოთ! */
+  .linear {
+    background: linear-gradient(hsl(7, 86%, 67%), hsl(0, 0%, 100%));
+  }
+  
+  .bg-neutral {
+    background: hsl(0, 0%, 100%);
+  }
+  .bg-neutral-300 {
+    background: hsl(252, 6%, 83%);
+  }
+  .bg-neutral-500 {
+    background: hsl(245, 15%, 58%);
+  }
+  .bg-neutral-700 {
+    background: hsl(245, 19%, 35%);
+  }
+  .bg-neutral-900 {
+    background: hsl(248, 70%, 10%);
+  }
+  .bg-orange-500 {
+    background: hsl(7, 88%, 67%);
+  }
+  
+  .bg-orange-500 {
+    background: hsl(7, 88%, 67%);
+  }
+  .bg-orange-700 {
+    background: hsl(7, 71%, 60%);
+  }
+  continiue
+
+  /*? text background class end*/
+/* !ხშირად გამოყენებადი კალსიები start */
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+/* ?ხშირად გამოყენებადი კალსიები end */
+/* !text size start */
+
+.text-xl {
+  font-size: 60px;
+}
+
+.text-md {
+  font-size: 24px;
+}
+
+/* ?text size end */
+
+/* !text align start */
+.text-center {
+  text-align: center;
+}
+.text-end {
+  text-align: end;
+}
+/* ?text align end */
+
+/* !width start */
+.w-xl {
+  max-width: 850px;
+}
+/* ?width end */
+
+.background-img {
+  /*                             ხაზები                       */
+  background: url("../assets/images/pattern-lines.svg"),
+    /*                              წრე     */
+      url("../assets/images/pattern-circle.svg"),
+    /*                              წრე     */
+      url("../assets/images/pattern-circle.svg"),
+    /*                              კლაკნილი     */
+      url("../assets/images/pattern-squiggly-line-top.svg"),
+    /*                              კლაკნილი     */
+      url("../assets/images/pattern-squiggly-line-bottom-desktop.svg"),
+    /*                            ფონი                          */
+      url("../assets/images/background-desktop.png");
+  background-repeat: no-repeat;
+
+  /*              ხაზები  წრე   წრე !კლ  ?კლ ,ფონი     */
+  background-size: cover, 10%, 10%, 25%, 50%, cover;
+  /*              ხაზები     წრე         წრე       !კლ           ?კლ   ფონი     */
+  background-position: 0, 3vw -12vh, 75vw 50vh, right 10vh, left bottom, 0;
+  height: 100vh;
+}
+
+input {
+  border: 1px solid hsl(245, 19%, 35%);
+  color: white;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  background-color: hsl(248, 70%, 10%, 0.8);
+}
+input[type=file] {
+  display: none;
+}
+/* 
+sm---small
+md---medium
+lg---large
+xl---extra large
+2xl ---extra extra large
+3xl ---2extra  large
+4xl ---extra extra extra extra large
+*/

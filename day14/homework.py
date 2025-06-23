@@ -1,7 +1,10 @@
 # 1)
 
 # name = input("Please input your name: ")
-# result = ' '.join(list(name))
+# result = ""
+# for i in name:
+#     result += i
+#     result += " "
 # print(result)
 
  

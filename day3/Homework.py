@@ -5,13 +5,12 @@ age = "22"
 favorite_food = "მწვადი"
 hobby = "წიგნის კითხვით"
 country = "საქართველოში"
-favorite_movie_noquotes= "ცისფერი მთები"
-favorite_movie = '"' + favorite_movie_noquotes + '"'
-favotire_song_noquotes= "fly me to the moon"
-favorite_song = '"' + favotire_song_noquotes + '"'
+favorite_movie = "ცისფერი მთები"
+favotire_song = "fly me to the moon"
+
 
 # გამომაქვს პარაგრაფი ვიყენებ შექმნილ ცვლადებს წინადადებებში
-print("გამარჯობათ ჩემი სახელია და გვარია " + name + " " + surname + " მე ვარ " + age + " წლის და დავიბადე " + country + ". ჩემი საყვარელი საჭმელია " + favorite_food + ", ჩემი საყვარელი ფილმია " + favorite_movie + " საყვარელი სიმღერა კი " + favorite_song + " ასევე ვერთობი " + hobby)
+print("გამარჯობათ ჩემი სახელია და გვარია " + name + " " + surname + " მე ვარ " + age + " წლის და დავიბადე " + country + ". ჩემი საყვარელი საჭმელია " + favorite_food + ", ჩემი საყვარელი ფილმია " + favorite_movie + " საყვარელი სიმღერა კი " + favotire_song + " ასევე ვერთობი " + hobby)
 
 # მაგალითები მათემატიკურ ოპერატორებზე
 print (10 + 10)

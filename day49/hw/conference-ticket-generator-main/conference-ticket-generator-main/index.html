@@ -1,48 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title></title>
+  </head>
+  <body class="background-img">
+    <div class="font-regular text-neutral flex flex-col align-center">
+      <header>
+        <img src="./assets/images/logo-full.svg" alt="Website logo icon" />
+      </header>
+      <main class="flex flex-col align-center">
+        <h1 class="font-bold text-xl w-xl text-center">
+          Your Journey to Coding Conf 2025 Starts Here!
+        </h1>
+        <h3 class="text-neutral-300 text-md">
+          Secure your spot at next year's biggest coding conference.
+        </h3>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Conference ticket generator</title>
-
-
-</head>
-<body>
-
-  <!-- Form starts -->
-
-  Your Journey to Coding Conf 2025 Starts Here!
-
-  Secure your spot at next year's biggest coding conference.
-
-  Upload Avatar
-  Drag and drop or click to upload
-  Upload your photo (JPG or PNG, max size: 500KB).
-
-  Full Name
-
-  Email Address
-  example@email.com
-
-  GitHub Username
-  @yourusername
-
-  Generate My Ticket
-
-  <!-- Form ends -->
-
-  <!-- Generated tickets starts -->
-
-  Congrats, <!-- Full Name -->! Your ticket is ready.
-
-  We've emailed your ticket to <!-- Email Address --> and will send updates in the run up to the event.
-
-  Coding Conf
-  Jan 31, 2025 / Austin, TX
+        <form class="flex flex-col">
 
 
-</body>
+          asddddddddd
+          <label class="font-Medium" for="f1">Upload Avatar</label>
+          <div>
+            <img
+              src="./assets/images/icon-upload.svg"
+              alt="Website upload icon"
+            />
+            <input type="file" name="file" id="f1" />
+            <p>Drag and drop or click to upload</p>
+          </div>
+          <!-- ! display: flex -->
+          <div class="flex">
+            <img src="./assets/images/icon-info.svg" alt="Website info icon" />
+            <p>Upload your photo (JPG or PNG, max size: 500KB).</p>
+          </div>
+
+          <label for="t1">Full Name</label>
+          <input type="text" name="name" id="t1" />
+
+          <label for="e1">Email Address</label>
+          <input
+            type="email"
+            name="email"
+            id="e1"
+            placeholder="example@email.com"
+          />
+
+          <label for="t2">GitHub Username</label>
+          <input
+            type="text"
+            name="github"
+            id="t2"
+            placeholder="@yourusername"
+          />
+
+          <button>Generate My Ticket</button>
+        </form>
+      </main>
+    </div>
+  </body>
 </html>
+
+
+

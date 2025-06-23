@@ -1,10 +1,11 @@
 # 1)
 # letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']
-# vowels = ['a', 'e', 'i', 'o', 'u']
-# for i in letters:
-#     if i in vowels:
-#         print(i)
-
+# vowels = "aeiouAEIOU"
+# count = 0
+# for letter in letters:
+#     if letter in vowels:
+#         count += 1
+        
 # 2)
 # nums = [100, 15, 46, 45, 14, 16, 27, 35, 40, 90]
 # for i in nums:
@@ -15,10 +16,11 @@
 # 3)
 
 # elements = ['a', 'b', 'c', '1', '2', '3', '4', 'gio', 'davit', 'luka', 'sandro']
-
-# example1 = ''.join(elements)
-
-# print(example1)
+# together = ""
+# for i in elements:
+#     together += str(i)
+# print(together)
+    
 
 
 

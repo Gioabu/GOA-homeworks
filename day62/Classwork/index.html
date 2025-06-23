@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f2f2f2;
+        }
+
+        .card {
+            max-width: 800px;
+            background: #fff;
+            margin: 0 auto;
+            height: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.05);
+            margin-bottom: 50px;
+            animation-name: fadein;
+            animation-duration: 2000ms;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+            overflow: hidden;
+        }
+
+        @keyframes fadein {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 0;
+                transform: translateX(-10px) rotateX(100deg);
+            }
+            70% {
+                transform: translateY(200px) rotateY(-100deg);
+            }
+            80%{
+                background: blue;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .delay-300 {
+            animation-delay: 75ms;
+        }
+
+        .delay-800 {
+            animation-delay: 100ms;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="card"></div>
+<div class="card delay-300">
+</div>
+<div class="card delay-800"></div>
+</body>
+</html>

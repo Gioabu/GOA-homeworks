@@ -12,9 +12,12 @@
 
 # 3)
 
-# names = ['Gio', 'Davit', 'Gio', 'Luka', 'Vano', 'Davit', 'Davit', 'Gio', 'Gio', 'Vano', ]
-# name_count = names.count('Davit')
-# print(name_count)
+# lst1 = []
+# lst2 = input("Please input a name:")
+# count = 0
+# for i in lst1:
+#     if lst2 == i:
+#         count += 1
 
 # 4)
 

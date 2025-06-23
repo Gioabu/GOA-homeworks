@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-clifford: #da373d;      
+            --color-background-10: #5937E0;
+
+            --spacing-base-72: 72px;
+            --spacing-base-660: 660px;
+
+            --radius-ra-40: 40px;
+        }
+        @utility container{
+            @apply max-w-[1440px] mx-auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container px-base-72 ">
+        <div class="bg-background-10 h-base-660 rounded-ra-40 bg-[url(./assets/images/img.png)] bg-no-repeat bg-position-[left_15px_right_820px]">
+        </div>
+    </div>
+</body>
+
+</html>

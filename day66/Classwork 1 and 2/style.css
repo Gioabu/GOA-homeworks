@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+    height: 200vh;
+}
+
+.main-container{
+    position: relative;
+    border: 10px solid red;
+    height: 300px;
+    width: 300px;
+}
+ul{
+    display: flex;
+    gap: 15px;
+    position: fixed;
+    background-color: yellow;
+    list-style: none;
+    z-index: 1;
+}
+.box{
+    position: absolute;
+    border: 5px solid green;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+
